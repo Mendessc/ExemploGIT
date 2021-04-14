@@ -239,6 +239,73 @@ hr{
         font-weight: 400;
     }
 
+    @media (max-width:420px){
+        .container{
+            width:80vh
+        }
+        .container-banner{
+            display: flex;
+            justify-content: center;
+        }
+        .fundo-banner{
+            height:700px;
+            width: auto;
+        }
+        .conteudo-banner{
+            left: 28%;
+            top:14%;
+            align-items: center;
+        }
+        h1{
+            font-size: 70px;
+            width: 400px;
+        }
+        hr{
+            width:100%;
+            margin: 40px;
+        }
+        .conteudo-banner span{
+            font-size: 39px;
+            margin: 50px 0;
+        }
+        .conteudo-banner img{
+            width: 55px;
+        }
+        .container-sobre{
+            margin-top: 5px;
+            width: 600px;
+            height: auto;
+            
+        } 
+        .container-sobre h2{
+            font-size: 85px;
+            margin: 50px 0;
+
+        }
+        .box-sobre{
+            flex-direction: column;
+        }
+        .img-sobre{
+            width:80vh;
+        }
+        .box-text-sobre{
+            margin-top: 50px;
+            padding-bottom: 50px;
+        }
+        .box-text-sobre span{
+            font-size: 30px;
+        }
+        .box-text-sobre h3{
+            font-size: 58px;
+            margin: 50px 0;
+        }
+        .box-text-sobre p{
+            width:auto;
+            text-align: justify;
+            font-size: 24px;
+        }
+    }
+
 
 
 
