@@ -19,7 +19,7 @@
                 <a href="#desafios">desafios</a>
                 <a href="#endereco">endereço</a>
             </nav>
-            <a class="botao-menu" href="#" onclick="botaodomenu()">
+            <a class="botao-menu" href="javascript:void(0)" onclick="botaodomenu()">
                 <i class="fas fa-bars"></i>
             </a>
         </div>
@@ -87,11 +87,11 @@
         <section id="endereco" class="endereco">
             <h2>endereço:</h2>
             <div class="box-endereco">
-                <p>Alameda Barão de Limeira, 539 
+                <p>Alameda Barão de Limeira, 539
                     Santa Cecilia, São Paulo - SP
                     CEP: 01202-001</p>
-                </div>
-                <img class="mapa" src="assets_/mapa.png">
+            </div>
+            <img class="mapa" src="assets_/mapa.png">
 
         </section>
 
@@ -103,10 +103,12 @@
     <script>
         function botaodomenu() {
             var menu = document.getElementById("links");
-            if (menu.style.display === "flex") {
-            menu.style.display = "none";
-            } else {
-                menu.style.display = "flex";
+            if (screen.width <= 420) {
+                if (menu.style.display === "flex") {
+                    menu.style.display = "none";
+                } else {
+                    menu.style.display = "flex";
+                }
             }
         }
     </script>

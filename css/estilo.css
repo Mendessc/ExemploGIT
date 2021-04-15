@@ -246,9 +246,6 @@ hr{
         .container{
             width: 50vh
         }
-        header{
-            width: 91.11%;
-        }
         .container-header{
             justify-content: flex-start;
             align-items: center;
